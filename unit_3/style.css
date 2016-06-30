@@ -1,3 +1,32 @@
-body {
-	background-image: url("kerrylsmithyman.github.io/unit_3/images/couplemakeoutanatomyevent.jpg");
+@font-face {
+    font-family: 'sofia_prolight';
+    src: url('SofiaProLight-webfont.eot');
+    src: url('SofiaProLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SofiaProLight-webfont.woff2') format('woff2'),
+         url('SofiaProLight-webfont.woff') format('woff'),
+         url('SofiaProLight-webfont.ttf') format('truetype'),
+         url('SofiaProLight-webfont.svg#sofia_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html { 
+  background: url("images/couplemakeoutanatomyevent.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+	color: white;
+	text-align: center;
+	font-family: 'sofia_prolight';
+	font-size: 35px;
+}
+p {
+	color: white;
+	outline-color: black;
+	text-align: center;
+	font-family: 'sofia_prolight';
+	font-size: 18px;
 }
