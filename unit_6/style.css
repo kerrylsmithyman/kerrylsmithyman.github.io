@@ -38,8 +38,9 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 7px 8px;
     text-decoration: none;
+    margin: 1.8em;
 }
 
 .description {
@@ -60,5 +61,13 @@ li a {
 
 }
 
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+  clear: both;
+  content: " ";
 
+}
 
