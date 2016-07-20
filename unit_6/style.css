@@ -1,0 +1,64 @@
+
+body {
+  background: url("images/couplemakeoutanatomyevent.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h1 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 2em;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+header {
+  padding-top: 2cm;
+  background-image: url("images/ED-LogoMark_Horizontal copy.png") no-repeat fixed;
+  background-color: rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.description {
+    width: 300px;
+    border: 25px solid black;
+    padding: 25px;
+    margin: 25px;
+    float: left;
+}
+
+.about {
+    float: right;
+    width: 700px;
+    border: 25px solid gray;
+    padding: 25px;
+    margin: 25px;
+    text-align: justify;
+
+}
+
+
+
