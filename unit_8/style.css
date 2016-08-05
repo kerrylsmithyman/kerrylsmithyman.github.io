@@ -52,7 +52,6 @@ li a {
 }
 
 .about {
-    float: right;
     width: 700px;
     border: 25px solid gray;
     padding: 25px;
@@ -72,7 +71,8 @@ li a {
 }
 
 @media screen only and (min-width: 500px) {
-  
+body {
+font-size: 12px;
 }
 
 
