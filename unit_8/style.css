@@ -70,7 +70,7 @@ li a {
 
 }
 
-@media screen only and (min-width: 500px) {
+@media screen only (max-height: 568px) and (max-width: 320px) {
 body {
 font-size: 12px;
 }
