@@ -70,6 +70,10 @@ li a {
 
 }
 
+div {
+width: 100%;
+}
+
 @media screen only (max-height: 568px) and (max-width: 320px) {
 body {
 font-size: 12px;
